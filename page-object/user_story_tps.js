@@ -6,11 +6,6 @@ var login = async t => {
         .typeText('#j_password', 'Password')
         .click('#login-button')        
 }
-
-// var current_page = async t=> {
-//     await t
-//         .eval(() => window.location.reload(true))
-// }
     
 fixture `User Stories Page`
     .page(`https://karla0.testn.f4tech.com/#/20330408691d/userstories`)  
